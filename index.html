@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-info-subtle">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img src="resources/logo.png" class="logo-img" alt=""
+          /></a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar links aligned to the right -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="resources/Resume.pdf"
+                  download
+                  class="btn btn-info text-white fw-bold px-4 py-2 custom-btn">
+                  Resume <i class="fa-solid fa-download"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br><br><br><br><br><br>
+      <div id="about" class="d-flex mt-10">
+        <div class="me-auto p-2 col-lg-7 col-sm-12 col-md-6 container mt-6">
+          <h1 class="text-primary-emphasis">HI!</h1>
+          <h1 class="text-primary-emphasis">I'M SHORIF</h1>
+          <h3>Web Developer || Programmer || Problem Solver</h3>
+          <h6>
+            I am an Enthusiastic and detail-oriented Junior Django Developer
+            with a strong foundation in Python and web development. Recently
+            completed a coding bootcamp and built multiple projects using
+            Django, Django REST Framework, and modern frontend technologies.
+            Eager to contribute to a dynamic team, learn from experienced
+            developers, and grow as a professional.
+          </h6>
+          <br />
+          <div class="">
+            <a
+              href="https://www.facebook.com/ShorifMia111"
+              class="btn btn-primary g-2 auto">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/md-shorif-mia-43ba47235/"
+              class="btn btn-primary g-2 auto">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/shorif-111" class="btn btn-dark auto">
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="resources/Resume.pdf"
+              class="btn btn-primary auto"
+              download>
+              <i class="fa-solid fa-download"></i> Download CV
+            </a>
+          </div>
+        </div>
+        <div class="container-fluid me-auto profile-img p-2 col-lg-5 col-md-6 col-sm-12">
+          <img src="resources/profile_bg.png" class="img-fluid" alt="..." />
+        </div>
+      </div>
+    </header>
+    
+
+    <main>
+      <section id="projects" class="d-flex">
+        <div class="container mt-4">
+            <h3 class="d-flex justify-content-center">Portfolio:</h3>
+          <div class="row">
+            <!-- Image Slider (Carousel) -->
+            <div class="col-md-6 col-sm-12">
+              <div
+                id="imageCarousel"
+                class="carousel slide"
+                data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="resources/slide-1.jpg"
+                      class="banner-img d-block w-100"
+                      alt="Slide 1" />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="resources/slide-2.jpg"
+                      class="banner-img d-block w-100"
+                      alt="Slide 2" />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="resources/slide-3.jpg"
+                      class="banner-img d-block w-100"
+                      alt="Slide 3" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Static Text Section -->
+            
+            <div class="col-md-6 col-sm-12">
+              <h3 class="text-primary fw-bold">
+                User Registration System<i class="bi bi-mortarboard-fill"></i>
+              </h3>
+              <p>
+                ✔ Sign Up Form: Users can create an account using email and
+                password. <br />
+                ✔ Username & Profile Info: Collect username, first name, last
+                name, email, <etc class="br"></etc> ✔ Password Security: Strong
+                password enforcement (e.g., minimum length, special characters,
+                uppercase letters). <br />
+                ✔ Confirm Password Field: Prevents user errors when entering
+                passwords.
+              </p>
+              <ul>
+                <li>
+                  🔒 Email Verification (OTP): Send a verification link or OTP
+                  code to confirm the user’s email.
+                </li>
+                <li>
+                  ⚡ Forgot Password & Reset Link: Users can reset passwords via
+                  email verification.
+                </li>
+                <li>
+                  🛠 Django Authentication System: Use Django’s built-in user
+                  model for authentication.
+                </li>
+              </ul>
+              <span class="badge bg-secondary">Bootstrap</span>
+              <span class="badge bg-warning">MySQL</span>
+              <span class="badge bg-primary">HTML</span>
+              <span class="badge bg-info text-dark">Python</span>
+              <span class="badge bg-success">Django</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <br /><br />
+    <section id="skills" class="container mt-4">
+        <h3 class= "text-center">Expertise:</h3>
+
+      <!-- Frontend Skills -->
+      <h5 class="mt-3">Frontend:</h5>
+      <span class="badge bg-primary">HTML</span>
+      <span class="badge bg-info text-dark">CSS</span>
+      <span class="badge bg-warning text-dark">JavaScript</span>
+      <span class="badge bg-secondary">Bootstrap</span>
+      <span class="badge bg-danger">React</span>
+
+      <!-- Backend Skills -->
+      <h5 class="mt-3">Backend:</h5>
+      <span class="badge bg-dark">Python</span>
+      <span class="badge bg-success">Django</span>
+      <span class="badge bg-warning text-dark">MySQL</span>
+      <span class="badge bg-primary">REST API</span>
+
+      <!-- Programming Languages -->
+      <h5 class="mt-3">Programming Languages:</h5>
+      <span class="badge bg-dark">Python</span>
+      <span class="badge bg-primary">C</span>
+      <span class="badge bg-info text-dark">C++</span>
+      <span class="badge bg-danger">Java</span>
+      <span class="badge bg-warning text-dark">JavaScript (Basic)</span>
+
+      <!-- Tools -->
+      <h5 class="mt-3">Tools:</h5>
+      <span class="badge bg-secondary">Git</span>
+      <span class="badge bg-primary">GitHub</span>
+      <span class="badge bg-info text-dark">VS Code</span>
+      <span class="badge bg-success">Linux/Ubuntu</span>
+
+    </section>
+
+    <section id="education" class="container mt-5">
+        <h3 class="text-center mb-4">Education</h3>
+    
+        <div class="row justify-content-center">
+            <!-- University -->
+            <div class="col-md-12 col-sm-12">
+                <div class="card mb-3 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Bachelor of Science in Computer Science & Engineering</h5>
+                        <h6 class="text-muted">Begum Rokeya University, Rangpur</h6>
+                        <p class="text-muted">2022 - Present</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <br /><br /><br />
+
+    <section id = "contact" class = "container mt-4">
+        <h3 class="d-flex justify-content-center">Contact with me:</h3>
+        
+        <div class="row g-3">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+          </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Text</label>
+            <textarea  placeholder="Write anything here and send it to me. I'll reply shortly through Your mail" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Send</button>
+          </div>
+    </section>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p class="mb-2">© 2025 SHORIF | All Rights Reserved</p>
+    
+            <!-- Social Media Links -->
+            <div>
+                <a href="https://github.com/shorif-111" class="text-light me-3" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/md-shorif-mia-43ba47235/" class="text-light me-3" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://x.com/MdShorif_Mia" class="text-light me-3" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="mailto:cse12005011brur@gmail.com" class="text-light">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+    
+            <!-- Back to Top Button -->
+            <a href="#about" class="btn btn-primary mt-3">Back to Top</a>
+        </div>
+    </footer>
+    
+  
+    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
